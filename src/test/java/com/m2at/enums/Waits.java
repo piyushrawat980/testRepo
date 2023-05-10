@@ -4,6 +4,7 @@ public enum Waits
 {
 	
 	Explicit_Wait(10L);
+	SLEEP_ONE(1000L);
 	
 	private long waitTime; 
 	
